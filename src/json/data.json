@@ -1,0 +1,830 @@
+{
+    "novedades": [
+        {
+            "descripcion": "EL CHICO QUE SIGUI&Oacute; A SU PADRE HASTA AUSCHWITZ",
+            "autor": "JEREMY DRONFIELD",
+            "editorial": "Planeta",
+            "precioOriginal": "69.00",
+            "precioCompra": "48.30",
+            "precioVenta": "62.10",
+            "detalle": "30% DESCUENTOS",
+            "imagen": "el-chico-que-siguio-a-su-padre-hasta-auschwitz.jpg",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "MIL NOCHES SIN TI",
+            "autor": "FEDERICO MOCCIA",
+            "editorial": "Planeta",
+            "precioOriginal": "69.00",
+            "precioCompra": "48.30",
+            "precioVenta": "62.10",
+            "detalle": "30% DESCUENTOS",
+            "imagen": "mil-noches.jpg",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "LA SOSPECHA",
+            "autor": "FIONA BARTON",
+            "editorial": "Planeta",
+            "precioOriginal": "69.00",
+            "precioCompra": "48.30",
+            "precioVenta": "62.10",
+            "detalle": "30% DESCUENTOS",
+            "imagen": "la-sospecha.jpg",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "ESTRATEGIAS CON CALLE",
+            "autor": "CRISTINA QUIÑONES",
+            "editorial": "Planeta",
+            "precioOriginal": "49.00",
+            "precioCompra": "32.67",
+            "precioVenta": "41.10",
+            "detalle": "oferta 3 x 2",
+            "imagen": "estrategias-con-calle.jpg",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "D&Iacute;AS SIN TI",
+            "autor": "ELVIRA SASTRE",
+            "editorial": "Planeta",
+            "precioOriginal": "69.00",
+            "precioCompra": "46.00",
+            "precioVenta": "62.10",
+            "detalle": "oferta 3 x 2",
+            "imagen": "dias-sin-ti.jpg",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "LA MUJER SOVI&Eacute;TICA",
+            "autor": "DANY SALVATIERRA",
+            "editorial": "Planeta",
+            "precioOriginal": "69.00",
+            "precioCompra": "46.00",
+            "precioVenta": "62.10",
+            "detalle": "oferta 3 x 2",
+            "imagen": "mujer-sovietica.jpg",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "FILOSOF&Iacute;A EN 11 FRASES",
+            "autor": "DARIO SZTAJNSZRAJBER",
+            "editorial": "Paid&oacute;s",
+            "precioOriginal": "59.00",
+            "precioCompra": "39.34",
+            "precioVenta": "53.10",
+            "detalle": "oferta 3 x 2",
+            "imagen": "filosofia-11-frases.jpg",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "EL PUZZLE DE CRISTAL",
+            "autor": "BLUE JEANS",
+            "editorial": "Planeta",
+            "precioOriginal": "69.00",
+            "precioCompra": "46.00",
+            "precioVenta": "62.10",
+            "detalle": "oferta 3 x 2",
+            "imagen": "puzle-cristal.jpg",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "LA MUERTE DEL COMENDADOR 2",
+            "autor": "HARUKI MURAKAMI",
+            "editorial": "Tusquets",
+            "precioOriginal": "69.00",
+            "precioCompra": "46.00",
+            "precioVenta": "62.10",
+            "detalle": "oferta 3 x 2",
+            "imagen": "muerte-comendador-2.jpg",
+            "cantidad": 1
+        }
+    ],
+    "recomendados": [
+        {
+            "descripcion": "YO JULIA",
+            "autor": "SANTIAGO POSTERGUILLO",
+            "editorial": "Planeta",
+            "precioOriginal": "69.00",
+            "precioCompra": "46.00",
+            "precioVenta": "62.10",
+            "detalle": "oferta 3 x 2",
+            "imagen": "yo-julia.jpg",
+            "cantidad": 2
+        },
+        {
+            "descripcion": "HOMO DEUS",
+            "autor": "YUVAL NOAH HARARI",
+            "editorial": "Debate",
+            "precioOriginal": "89.00",
+            "precioCompra": "59.34",
+            "precioVenta": "80.10",
+            "detalle": "oferta 3 x 2",
+            "imagen": "homo-deus.jpg",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "POES&Iacute;A COMPLETA",
+            "autor": "CESAR VALLEJO",
+            "editorial": "Seix Barral",
+            "precioOriginal": "69.00",
+            "precioCompra": "46.00",
+            "precioVenta": "62.10",
+            "detalle": "oferta 3 x 2",
+            "imagen": "poesia-completa.jpg",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "UNA NOVELA CRIMINAL",
+            "autor": "JORGE VOLPI",
+            "editorial": "Alfaguara",
+            "precioOriginal": "69.00",
+            "precioCompra": "46.00",
+            "precioVenta": "62.10",
+            "detalle": "oferta 3 x 2",
+            "imagen": "novela-criminal.jpg",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "S&Aacute;LVESE QUIEN PUEDA",
+            "autor": "ANDR&Eacute;S OPPENHEIMER",
+            "editorial": "Debate",
+            "precioOriginal": "89.00",
+            "precioCompra": "59.34",
+            "precioVenta": "80.10",
+            "detalle": "oferta 3 x 2",
+            "imagen": "salvese-quien-pueda.jpg",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "RENDICI&Oacute;N",
+            "autor": "RAY LORIGA",
+            "editorial": "Alfaguara",
+            "precioOriginal": "59.00",
+            "precioCompra": "39.34",
+            "precioVenta": "53.10",
+            "detalle": "oferta 3 x 2",
+            "imagen": "rendicion.jpg",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "21 LECCIONES PARA EL SIGLO XXI",
+            "autor": "YUVAL NOAH HARARI",
+            "editorial": "Debate",
+            "precioOriginal": "89.00",
+            "precioCompra": "59.34",
+            "precioVenta": "80.10",
+            "detalle": "oferta 3 x 2",
+            "imagen": "21-lecciones-siglo-xxi.jpg",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "CANCI&Oacute;N DE HIELO Y FUEGO",
+            "autor": "GEORGE R. R. MARTIN",
+            "editorial": "DeBolsillo",
+            "precioOriginal": "69.00",
+            "precioCompra": "46.00",
+            "precioVenta": "62.10",
+            "detalle": "oferta 3 x 2",
+            "imagen": "cancion-hielo-fuego-1.jpg",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "ELON MUSK",
+            "autor": "ASHLEE VANCE",
+            "editorial": "Vergara",
+            "precioOriginal": "49.00",
+            "precioCompra": "32.67",
+            "precioVenta": "41.10",
+            "detalle": "oferta 3 x 2",
+            "imagen": "elon-musk.jpg",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "STEVE JOBS",
+            "autor": "KAREN BLUMENTHAL",
+            "editorial": "Altea",
+            "precioOriginal": "59.00",
+            "precioCompra": "39.34",
+            "precioVenta": "53.10",
+            "detalle": "oferta 3 x 2",
+            "imagen": "steve-jobs.jpg",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "MIENTRAS ESCRIBO",
+            "autor": "STEPHEN KING",
+            "editorial": "DeBolsillo",
+            "precioOriginal": "49.00",
+            "precioCompra": "32.67",
+            "precioVenta": "41.10",
+            "detalle": "oferta 3 x 2",
+            "imagen": "mientras-escribo.jpg",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "MIEDO",
+            "autor": "BOB WOODWARD",
+            "editorial": "Roca",
+            "precioOriginal": "89.00",
+            "precioCompra": "59.34",
+            "precioVenta": "80.10",
+            "detalle": "oferta 3 x 2",
+            "imagen": "miedo-trump-casa-blanca.jpg",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "PADRE RICO PADRE POBRE",
+            "autor": "ROBERT KIYOSAKI",
+            "editorial": "DeBolsillo",
+            "precioOriginal": "35.00",
+            "precioCompra": "23.34",
+            "precioVenta": "31.50",
+            "detalle": "oferta 3 x 2",
+            "imagen": "padre-rico-padre-pobre.jpg",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "PIENSE Y HAGASE RICO",
+            "autor": "NAPOLEON HILL",
+            "editorial": "DeBolsillo",
+            "precioOriginal": "39.00",
+            "precioCompra": "26.00",
+            "precioVenta": "35.10",
+            "detalle": "oferta 3 x 2",
+            "imagen": "piense-hagase-rico.jpg",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "ACTITUD MENTAL POSITIVA",
+            "autor": "NAPOLEON HILL",
+            "editorial": "DeBolsillo",
+            "precioOriginal": "39.00",
+            "precioCompra": "26.00",
+            "precioVenta": "35.10",
+            "detalle": "oferta 3 x 2",
+            "imagen": "actitud-mental-positiva.jpg",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "MUCHAS VIDAS MUCHOS MAESTROS",
+            "autor": "BRIAN WEISS",
+            "editorial": "B de Bolsillo",
+            "precioOriginal": "35.00",
+            "precioCompra": "23.34",
+            "precioVenta": "31.50",
+            "detalle": "oferta 3 x 2",
+            "imagen": "muchas-vidas-muchos-maestros.jpg",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "CHARLAS TED",
+            "autor": "CHRIS ANDERSON",
+            "editorial": "New York Times",
+            "precioOriginal": "59.00",
+            "precioCompra": "39.34",
+            "precioVenta": "53.10",
+            "detalle": "oferta 3 x 2",
+            "imagen": "charlas-ted.jpg",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "EL CAMINO HACIA EL LEAN STARTUP",
+            "autor": "ERIC RIES",
+            "editorial": "DeBolsillo",
+            "precioOriginal": "59.00",
+            "precioCompra": "39.34",
+            "precioVenta": "53.10",
+            "detalle": "oferta 3 x 2",
+            "imagen": "camino-hacia-lean-startup.jpg",
+            "cantidad": 1
+        }
+    ],
+    "literatura": [
+        {
+            "descripcion": "MITOS, LEYENDAS Y CUENTOS PERUANOS",
+            "autor": "JOS&Eacute; MAR&Iacute;A ARGUEDAS",
+            "editorial": "DeBolsillo",
+            "precioOriginal": "35.00",
+            "precioCompra": "23.34",
+            "precioVenta": "31.50",
+            "detalle": "oferta 3 x 2",
+            "imagen": "mitos-leyendas.jpg",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "ABRIL ROJO",
+            "autor": "SANTIAGO RONCAGLIOLO",
+            "editorial": "DeBolsillo",
+            "precioOriginal": "35.00",
+            "precioCompra": "23.34",
+            "precioVenta": "31.50",
+            "detalle": "oferta 3 x 2",
+            "imagen": "abril-rojo.jpg",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "COSAS QUE NO HAY QUE CONTAR",
+            "autor": "RENATO CISNEROS",
+            "editorial": "DeBolsillo",
+            "precioOriginal": "35.00",
+            "precioCompra": "23.34",
+            "precioVenta": "31.50",
+            "detalle": "oferta 3 x 2",
+            "imagen": "cosas-no-contar.jpg",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "ABRAHAM VALDELOMAR",
+            "autor": "SELECCI&Oacute;N VALDELOMAR",
+            "editorial": "EstruendoMudo",
+            "precioOriginal": "29.00",
+            "precioCompra": "19.34",
+            "precioVenta": "26.10",
+            "detalle": "oferta 3 x 2",
+            "imagen": "valdelomar.jpg",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "LA GUERRA NO TIENE ROSTRO DE MUJER",
+            "autor": "STEVLANA ALEXIEVICH",
+            "editorial": "Debate",
+            "precioOriginal": "89.00",
+            "precioCompra": "59.34",
+            "precioVenta": "80.10",
+            "detalle": "oferta 3 x 2",
+            "imagen": "guerra-no-tiene-rostro-mujer.jpg",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "SIDDARTHA",
+            "autor": "HESSE",
+            "editorial": "DeBolsillo",
+            "precioOriginal": "35.00",
+            "precioCompra": "23.34",
+            "precioVenta": "31.50",
+            "detalle": "oferta 3 x 2",
+            "imagen": "siddhartha.jpg",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "DESGRACIA",
+            "autor": "COETZEE",
+            "editorial": "DeBolsillo",
+            "precioOriginal": "39.00",
+            "precioCompra": "26.00",
+            "precioVenta": "35.10",
+            "detalle": "oferta 3 x 2",
+            "imagen": "desgracia.jpg",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "LA BAILARINA DE AUSCHWITZ",
+            "autor": "EDITH EGER",
+            "editorial": "Planeta",
+            "precioOriginal": "59.00",
+            "precioCompra": "41.30",
+            "precioVenta": "53.10",
+            "detalle": "30% DESCUENTOS",
+            "imagen": "la-bailarina-de-auschwitz.jpg",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "LA CHICA INVISIBLE",
+            "autor": "BLUE JEANS",
+            "editorial": "Planeta",
+            "precioOriginal": "69.00",
+            "precioCompra": "46.00",
+            "precioVenta": "62.10",
+            "detalle": "oferta 3 x 2",
+            "imagen": "chica-invisible.jpg",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "LA MUERTE DEL COMENDADOR",
+            "autor": "HARUKI MURAKAMI",
+            "editorial": "Tusquets",
+            "precioOriginal": "69.00",
+            "precioCompra": "46.00",
+            "precioVenta": "62.10",
+            "detalle": "oferta 3 x 2",
+            "imagen": "muerte-comendador-1.jpg",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "BAILA, BAILA, BAILA",
+            "autor": "HARUKI MURAKAMI",
+            "editorial": "Tusquets",
+            "precioOriginal": "49.00",
+            "precioCompra": "32.67",
+            "precioVenta": "41.10",
+            "detalle": "oferta 3 x 2",
+            "imagen": "baila-baila-baila.jpg",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "PATRIA",
+            "autor": "FERNANDO ARAMBURO",
+            "editorial": "Tusquets",
+            "precioOriginal": "89.00",
+            "precioCompra": "59.34",
+            "precioVenta": "80.10",
+            "detalle": "oferta 3 x 2",
+            "imagen": "patria.jpg",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "1984",
+            "autor": "GEORGE ORWELL",
+            "editorial": "DeBolsillo",
+            "precioOriginal": "35.00",
+            "precioCompra": "23.34",
+            "precioVenta": "31.50",
+            "detalle": "oferta 3 x 2",
+            "imagen": "1984.jpg",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "FICCIONES",
+            "autor": "BORGES",
+            "editorial": "DeBolsillo",
+            "precioOriginal": "35.00",
+            "precioCompra": "23.34",
+            "precioVenta": "31.50",
+            "detalle": "oferta 3 x 2",
+            "imagen": "ficciones.jpg",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "BESTIARIO",
+            "autor": "JULIO CORTAZAR",
+            "editorial": "DeBolsillo",
+            "precioOriginal": "35.00",
+            "precioCompra": "23.34",
+            "precioVenta": "31.50",
+            "detalle": "oferta 3 x 2",
+            "imagen": "bestiario.jpg",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "MISERY",
+            "autor": "STEPHEN KING",
+            "editorial": "DeBolsillo",
+            "precioOriginal": "49.00",
+            "precioCompra": "32.67",
+            "precioVenta": "41.10",
+            "detalle": "oferta 3 x 2",
+            "imagen": "misery.jpg",
+            "cantidad": 1
+        },
+        
+        {
+            "descripcion": "EL VIEJO Y EL MAR",
+            "autor": "ERNEST HEMINGWAY",
+            "editorial": "DeBolsillo",
+            "precioOriginal": "35.00",
+            "precioCompra": "23.34",
+            "precioVenta": "31.50",
+            "detalle": "oferta 3 x 2",
+            "imagen": "viejo-y-mar.jpg",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "ASESINATO EN EL ORIENTE EXPRESS",
+            "autor": "AGATHA CHRISTIE",
+            "editorial": "Booket",
+            "precioOriginal": "29.00",
+            "precioCompra": "19.34",
+            "precioVenta": "26.10",
+            "detalle": "oferta 3 x 2",
+            "imagen": "asesinato-orient-express.jpg",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "ALICIA EN EL PA&Iacute;S DE LAS MARAVILLAS",
+            "autor": "LEWIS CARROLL",
+            "editorial": "Penguin Cl&aacute;sicos",
+            "precioOriginal": "49.00",
+            "precioCompra": "32.67",
+            "precioVenta": "41.10",
+            "detalle": "oferta 3 x 2",
+            "imagen": "alicia-pais-maravillas.jpg",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "EL GRAN GATSBY",
+            "autor": "SCOTT FITZGERALD",
+            "editorial": "Origo",
+            "precioOriginal": "49.00",
+            "precioCompra": "32.67",
+            "precioVenta": "41.10",
+            "detalle": "oferta 3 x 2",
+            "imagen": "gran-gatsby-origo.jpg",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "EL HOMBRE ILUSTRADO",
+            "autor": "RAY BRADBURY",
+            "editorial": "Booket",
+            "precioOriginal": "39.00",
+            "precioCompra": "26.00",
+            "precioVenta": "35.10",
+            "detalle": "oferta 3 x 2",
+            "imagen": "hombre-ilustrado.jpg",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "EL GRAN GATSBY",
+            "autor": "SCOTT FITZGERALD",
+            "editorial": "DeBolsillo",
+            "precioOriginal": "39.00",
+            "precioCompra": "26.00",
+            "precioVenta": "35.10",
+            "detalle": "oferta 3 x 2",
+            "imagen": "gran-gatsby-bolsillo.jpg",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "FAHRENHEIT 451",
+            "autor": "RAY BRADBURY",
+            "editorial": "DeBolsillo",
+            "precioOriginal": "35.00",
+            "precioCompra": "23.34",
+            "precioVenta": "31.50",
+            "detalle": "oferta 3 x 2",
+            "imagen": "fahrenheit.jpg",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "DIARIO",
+            "autor": "ANNA FRANK",
+            "editorial": "DeBolsillo",
+            "precioOriginal": "39.00",
+            "precioCompra": "26.00",
+            "precioVenta": "35.10",
+            "detalle": "oferta 3 x 2",
+            "imagen": "diario-ana-frank.jpg",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "ROBINSON CRUSOE",
+            "autor": "DANIEL DEFOE",
+            "editorial": "DeBolsillo",
+            "precioOriginal": "39.00",
+            "precioCompra": "27.34",
+            "precioVenta": "35.10",
+            "detalle": "oferta 3 x 2",
+            "imagen": "robinson-crusoe.jpg",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "MUJERCITAS",
+            "autor": "LOUISA MAY ALCOTT",
+            "editorial": "Penguin Cl&aacute;sicos",
+            "precioOriginal": "69.00",
+            "precioCompra": "46.00",
+            "precioVenta": "62.10",
+            "detalle": "oferta 3 x 2",
+            "imagen": "mujercitas.jpg",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "EL HOBBIT",
+            "autor": "J. R. R. TOLKIEN",
+            "editorial": "Booket",
+            "precioOriginal": "49.00",
+            "precioCompra": "32.67",
+            "precioVenta": "41.10",
+            "detalle": "oferta 3 x 2",
+            "imagen": "hobbit.jpg",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "CUENTOS DE BUENAS NOCHES PARA NIÑAS REBELDES 2",
+            "autor": "ELENA FAVILLI",
+            "editorial": "Planeta",
+            "precioOriginal": "59.00",
+            "precioCompra": "39.34",
+            "precioVenta": "53.10",
+            "detalle": "oferta 3 x 2",
+            "imagen": "cuentos-de-buenas-noches-2.jpg",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "CAMBIO DE PALABRAS",
+            "autor": "CESAR HILDEBRANDT",
+            "editorial": "Planeta",
+            "precioOriginal": "49.00",
+            "precioCompra": "32.67",
+            "precioVenta": "41.10",
+            "detalle": "oferta 3 x 2",
+            "imagen": "cambio-palabras.jpg",
+            "cantidad": 1
+        }
+    ],
+    "austral":[
+        {
+            "descripcion": "DR&Aacute;CULA",
+            "autor": "BRAM STOKER",
+            "editorial": "Austral",
+            "precioOriginal": "19.90",
+            "precioCompra": "19.00",
+            "precioVenta": "19.90",
+            "detalle": "",
+            "imagen": "dracula2.png",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "LA ODISEA",
+            "autor": "HOMERO",
+            "editorial": "Austral",
+            "precioOriginal": "19.90",
+            "precioCompra": "19.00",
+            "precioVenta": "19.90",
+            "detalle": "",
+            "imagen": "la-odisea2.png",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "LA CASA DE LOS ESP&Iacute;RITUS",
+            "autor": "ISABEL ALLENDE",
+            "editorial": "Austral",
+            "precioOriginal": "19.90",
+            "precioCompra": "19.00",
+            "precioVenta": "19.90",
+            "detalle": "",
+            "imagen": "la-casa-espiritus2.png",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "LA ILIADA",
+            "autor": "HOMERO",
+            "editorial": "Austral",
+            "precioOriginal": "19.90",
+            "precioCompra": "19.00",
+            "precioVenta": "19.90",
+            "detalle": "",
+            "imagen": "la-iliada2.png",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "ROMEO Y JULIETA",
+            "autor": "SHAKESPEARE",
+            "editorial": "Austral",
+            "precioOriginal": "19.90",
+            "precioCompra": "19.00",
+            "precioVenta": "19.90",
+            "detalle": "",
+            "imagen": "romeo-y-julieta2.png",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "ORGULLO Y PREJUICIO",
+            "autor": "JANE AUSTEN",
+            "editorial": "Austral",
+            "precioOriginal": "19.90",
+            "precioCompra": "19.00",
+            "precioVenta": "19.90",
+            "detalle": "",
+            "imagen": "orgullo-y-prejuicio2.png",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "CUENTOS",
+            "autor": "ALLAN POE",
+            "editorial": "Austral",
+            "precioOriginal": "19.90",
+            "precioCompra": "19.00",
+            "precioVenta": "19.90",
+            "detalle": "",
+            "imagen": "cuentos2.png",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "LOS CACHORROS",
+            "autor": "VARGAS LLOSA",
+            "editorial": "Austral",
+            "precioOriginal": "19.90",
+            "precioCompra": "19.00",
+            "precioVenta": "19.90",
+            "detalle": "",
+            "imagen": "los-cachorros2.png",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "EL PERFUME",
+            "autor": "SUSKIND",
+            "editorial": "Austral",
+            "precioOriginal": "19.90",
+            "precioCompra": "19.00",
+            "precioVenta": "19.90",
+            "detalle": "",
+            "imagen": "el-perfume2.png",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "EL RETRATO DE DORIAN GREY",
+            "autor": "OSCAR WILDE",
+            "editorial": "Austral",
+            "precioOriginal": "19.90",
+            "precioCompra": "19.00",
+            "precioVenta": "19.90",
+            "detalle": "",
+            "imagen": "el-retrato-dorian-grey2.png",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "FRANKEINSTEIN",
+            "autor": "SHELLEY",
+            "editorial": "Austral",
+            "precioOriginal": "19.90",
+            "precioCompra": "19.00",
+            "precioVenta": "19.90",
+            "detalle": "",
+            "imagen": "frankenstein2.png",
+            "cantidad": 1
+        },
+        {
+            "descripcion": "LA METAMORF&Oacute;SIS",
+            "autor": "KAFKA",
+            "editorial": "Austral",
+            "precioOriginal": "19.90",
+            "precioCompra": "19.00",
+            "precioVenta": "19.90",
+            "detalle": "",
+            "imagen": "",
+            "cantidad": 0
+        },
+        {
+            "descripcion": "BODA DE SANGRE",
+            "autor": "GARCIA LORCA",
+            "editorial": "Austral",
+            "precioOriginal": "19.90",
+            "precioCompra": "19.00",
+            "precioVenta": "19.90",
+            "detalle": "",
+            "imagen": "",
+            "cantidad": 0
+        },
+        {
+            "descripcion": "VEINTE POEMAS DE AMOR Y UNA CANCI&Oacute;N DESESPERADA",
+            "autor": "NERUDA",
+            "editorial": "Austral",
+            "precioOriginal": "19.90",
+            "precioCompra": "19.00",
+            "precioVenta": "19.90",
+            "detalle": "",
+            "imagen": "",
+            "cantidad": 0
+        },
+        {
+            "descripcion": "EL T&Uacute;NEL",
+            "autor": "SABATO",
+            "editorial": "Austral",
+            "precioOriginal": "19.90",
+            "precioCompra": "19.00",
+            "precioVenta": "19.90",
+            "detalle": "",
+            "imagen": "el-tunel2.png",
+            "cantidad": 0
+        }
+    ],
+    "otros":[
+      {
+          "descripcion": "EL MONJE QUE VENDI&Oacute; SU FERRARI",
+          "autor": "ROBIN S. SHARMA",
+          "editorial": "DeBolsillo",
+          "precioOriginal": "35.00",
+          "precioCompra": "23.34",
+          "precioVenta": "31.50",
+          "detalle": "oferta 3 x 2",
+          "imagen": "monje-que-vendio-su-ferrari.jpg",
+          "cantidad": 0
+      },
+      {
+          "descripcion": "SABIDUR&Iacute;A COTIDIANA",
+          "autor": "ROBIN S. SHARMA",
+          "editorial": "DeBolsillo",
+          "precioOriginal": "35.00",
+          "precioCompra": "23.34",
+          "precioVenta": "31.50",
+          "detalle": "oferta 3 x 2",
+          "imagen": "sabiduria-cotidiana-monje.jpg",
+          "cantidad": 0
+      },
+      {
+          "descripcion": "DESCUBRE TU DESTINO",
+          "autor": "ROBIN S. SHARMA",
+          "editorial": "DeBolsillo",
+          "precioOriginal": "35.00",
+          "precioCompra": "23.34",
+          "precioVenta": "31.50",
+          "detalle": "oferta 3 x 2",
+          "imagen": "descubre-tu-destino.jpg",
+          "cantidad": 0
+      }
+  ]
+
+}
+
+

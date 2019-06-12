@@ -6,15 +6,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavComponent } from './elements/nav/nav.component';
 import { JumbotronComponent } from './elements/jumbotron/jumbotron.component';
+import { FooterComponent } from './elements/footer/footer.component';
+
 import { AlbumsComponent } from './albums/albums.component';
 import { AlbumComponent } from './albums/album/album.component';
-import { FooterComponent } from './elements/footer/footer.component';
-import { AboutComponent } from './pages/about/about.component';
-import { ContactComponent } from './pages/contact/contact.component';
-import { AlbumsService } from './albums/albums.service';
-import { SecretComponent } from './pages/secret/secret.component';
 import { AlbumDetailsComponent } from './albums/album-details/album-details.component';
+import { AlbumsService } from './albums/albums.service';
 import { AlbumListComponent } from './albums/album-list/album-list.component';
+
+import { NovedadesComponent } from './pages/novedades/novedades.component';
+import { ContactComponent } from './pages/contact/contact.component';
+import { SecretComponent } from './pages/secret/secret.component';
+
 import { HttpClientModule } from '@angular/common/http';
 import { AuthGuard } from './auth.guard';
 import { AuthService } from './auth.service';
@@ -25,18 +28,20 @@ import { AuthService } from './auth.service';
     AppComponent,
     NavComponent,
     JumbotronComponent,
+    FooterComponent,
+
     AlbumsComponent,
     AlbumComponent,
-    FooterComponent,
-    AboutComponent,
-    ContactComponent,
-    SecretComponent,
     AlbumDetailsComponent,
-    AlbumListComponent
+    AlbumListComponent,
+
+    NovedadesComponent,
+    ContactComponent,
+    SecretComponent
   ],
   imports: [
-    BrowserModule,
     AppRoutingModule,
+    BrowserModule,
     HttpClientModule
   ],
   providers: [AuthGuard, AuthService, AlbumsService],
