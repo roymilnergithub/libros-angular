@@ -15,8 +15,8 @@ import { AlbumsService } from './albums/albums.service';
 import { AlbumListComponent } from './albums/album-list/album-list.component';
 
 import { NovedadesComponent } from './pages/novedades/novedades.component';
-import { ContactComponent } from './pages/contact/contact.component';
-import { SecretComponent } from './pages/secret/secret.component';
+import { RecomendadosComponent } from './pages/recomendados/recomendados.component';
+import { LiteraturaComponent } from './pages/literatura/literatura.component';
 
 import { HttpClientModule } from '@angular/common/http';
 import { AuthGuard } from './auth.guard';
@@ -36,8 +36,8 @@ import { AuthService } from './auth.service';
     AlbumListComponent,
 
     NovedadesComponent,
-    ContactComponent,
-    SecretComponent
+    RecomendadosComponent,
+    LiteraturaComponent
   ],
   imports: [
     AppRoutingModule,

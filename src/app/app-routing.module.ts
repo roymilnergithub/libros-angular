@@ -2,8 +2,8 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 // pages
 import { NovedadesComponent } from './pages/novedades/novedades.component';
-import { ContactComponent } from './pages/contact/contact.component';
-import { SecretComponent } from './pages/secret/secret.component';
+import { RecomendadosComponent } from './pages/recomendados/recomendados.component';
+import { LiteraturaComponent } from './pages/literatura/literatura.component';
 // album
 import { AlbumDetailsComponent } from './albums/album-details/album-details.component';
 import { AlbumsComponent } from './albums/albums.component';
@@ -21,8 +21,8 @@ const routes: Routes = [
     ]
   },
   { path: 'novedades', component: NovedadesComponent },
-  { path: 'contact', component: ContactComponent },
-  { path: 'secret', component: SecretComponent, canActivate: [AuthGuard] }
+  { path: 'recomendados', component: RecomendadosComponent },
+  { path: 'literatura', component: LiteraturaComponent }
 ];
 
 @NgModule({
