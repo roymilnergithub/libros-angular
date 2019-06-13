@@ -17,6 +17,8 @@ import { AlbumListComponent } from './albums/album-list/album-list.component';
 import { NovedadesComponent } from './pages/novedades/novedades.component';
 import { RecomendadosComponent } from './pages/recomendados/recomendados.component';
 import { LiteraturaComponent } from './pages/literatura/literatura.component';
+import { AustralComponent } from './pages/austral/austral.component';
+import { ContactoComponent } from './pages/contacto/contacto.component';
 
 import { HttpClientModule } from '@angular/common/http';
 import { AuthGuard } from './auth.guard';
@@ -37,7 +39,9 @@ import { AuthService } from './auth.service';
 
     NovedadesComponent,
     RecomendadosComponent,
-    LiteraturaComponent
+    LiteraturaComponent,
+    AustralComponent,
+    ContactoComponent
   ],
   imports: [
     AppRoutingModule,

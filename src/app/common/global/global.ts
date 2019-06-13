@@ -9,6 +9,7 @@ export class Global {
   public TITLE_RECOMENDADOS = 'Recomendados';
   public TITLE_LITERATURA = 'Literatura';
   public TITLE_AUSTRAL = 'Austral';
+  public TITLE_CONTACTO = 'Contacto';
   public LISTA_LIBROS = {
     "novedades": [
       {
@@ -822,42 +823,42 @@ export class Global {
         "cantidad": 1,
         "filtro": ""
       },
-      {
-        "titulo": "LA METAMORFÓSIS",
-        "autor": "KAFKA",
-        "editorial": "Austral",
-        "precioOriginal": "19.90",
-        "precioCompra": "19.00",
-        "precioVenta": "19.90",
-        "detalle": "",
-        "imagen": "",
-        "cantidad": 0,
-        "filtro": ""
-      },
-      {
-        "titulo": "BODA DE SANGRE",
-        "autor": "GARCIA LORCA",
-        "editorial": "Austral",
-        "precioOriginal": "19.90",
-        "precioCompra": "19.00",
-        "precioVenta": "19.90",
-        "detalle": "",
-        "imagen": "",
-        "cantidad": 0,
-        "filtro": ""
-      },
-      {
-        "titulo": "VEINTE POEMAS DE AMOR Y UNA CANCIÓN DESESPERADA",
-        "autor": "NERUDA",
-        "editorial": "Austral",
-        "precioOriginal": "19.90",
-        "precioCompra": "19.00",
-        "precioVenta": "19.90",
-        "detalle": "",
-        "imagen": "",
-        "cantidad": 0,
-        "filtro": ""
-      },
+      // {
+      //   "titulo": "LA METAMORFÓSIS",
+      //   "autor": "KAFKA",
+      //   "editorial": "Austral",
+      //   "precioOriginal": "19.90",
+      //   "precioCompra": "19.00",
+      //   "precioVenta": "19.90",
+      //   "detalle": "",
+      //   "imagen": "",
+      //   "cantidad": 0,
+      //   "filtro": ""
+      // },
+      // {
+      //   "titulo": "BODA DE SANGRE",
+      //   "autor": "GARCIA LORCA",
+      //   "editorial": "Austral",
+      //   "precioOriginal": "19.90",
+      //   "precioCompra": "19.00",
+      //   "precioVenta": "19.90",
+      //   "detalle": "",
+      //   "imagen": "",
+      //   "cantidad": 0,
+      //   "filtro": ""
+      // },
+      // {
+      //   "titulo": "VEINTE POEMAS DE AMOR Y UNA CANCIÓN DESESPERADA",
+      //   "autor": "NERUDA",
+      //   "editorial": "Austral",
+      //   "precioOriginal": "19.90",
+      //   "precioCompra": "19.00",
+      //   "precioVenta": "19.90",
+      //   "detalle": "",
+      //   "imagen": "",
+      //   "cantidad": 0,
+      //   "filtro": ""
+      // },
       {
         "titulo": "EL TÚNEL",
         "autor": "SABATO",
