@@ -10,7 +10,7 @@
         inDuration: 1500,
         outDuration: 800,
         linkElement: '.animsition-link',
-        loading: true,
+        loading: false,
         loadingParentElement: 'html',
         loadingClass: 'animsition-loading-1',
         loadingInner: '<div class="loader05"></div>',

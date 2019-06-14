@@ -3,6 +3,7 @@
 @import './assets/css/album.css';
 @import './assets/css/main.css';
 @import './assets/css/util.css';
+@import './assets/fonts/iconic/css/material-design-iconic-font.min.css';
 
 .album-photo {
     margin-bottom: 16px;
