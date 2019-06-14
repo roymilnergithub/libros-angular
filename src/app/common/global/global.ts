@@ -147,7 +147,7 @@ export class Global {
             "descripcion": "Filosofía en 11 frases de Darío Sztajnszrajberes un libro que no pretende ser un manual; sin embargo en ningún momento rehúsa a su carácter didáctico. El título no deja lugar a sorpresas se trata de un libro que toma once frases insignes del saber filosófico para desde ellas adentrarse en ciertas corrientes pero que tiene la particularidad de quedarse a medio camino entre novela y ensayo conteniendo incluso diálogos a la forma socrática platónica. De esta manera desde algo muy difundido como lo son la mayoría de las frases escogidas el autor ahonda en sus distintas posibilidades hasta penetrar en ellas desarmándolas repensándolas y volviéndolas a armar.",
             "medidas": "23 x 15",
             "paginas": "312",
-            "peso": "",
+            "peso": "0.3600",
             "anio_publicacion": "2019",
             "presentacion": "Tapa Rústica"
         }
@@ -230,7 +230,7 @@ export class Global {
             "medidas": "23 x 15",
             "paginas": "490",
             "peso": "0.5850",
-            "anio_publicacion": "",
+            "anio_publicacion": "2015",
             "presentacion": "Tapa Rústica"
         }
       },
@@ -310,7 +310,7 @@ export class Global {
             "medidas": "15 x 24",
             "paginas": "216",
             "peso": "0.2800",
-            "anio_publicacion": "",
+            "anio_publicacion": "2017",
             "presentacion": "Tapa Rústica"
         }
       },
@@ -346,11 +346,11 @@ export class Global {
         "cantidad": 1,
         "filtro": "",
         "detalle": {
-            "descripcion": "",
-            "medidas": "",
-            "paginas": "",
-            "peso": "",
-            "anio_publicacion": "",
+            "descripcion": "Juego de tronos es el primer volumen de Canción de hielo y fuego, la monumental saga de fantasía épica del escritor George R. R. Martin que ha vendido más de 20 millones de ejemplares en todo el mundo. Traducida a más de 30 idiomas, esta novela ha sido adaptada a la televisión en una superproducción de HBO. En el legendario mundo de los Siete Reinos, donde el verano puede durar décadas y el invierno toda una vida, y donde rastros de una magia inmemorial surgen en los rincones más sombríos, la tierra del norte, Invernalia, está resguardada por un colosal muro de hielo que detiene a fuerzas oscuras y sobrenaturales. En este majestuoso escenario, lord Stark y su familia se encuentran en el centro de un conflicto que desatará todas las pasiones: la traición y la lealtad, la compasión y la sed de venganza, el amor y el poder, la lujuria y el incesto, todo ello para ganar la más mortal de las batallas: el trono de hierro, una poderosa trampa que atrapará a los personajes... y al lector.",
+            "medidas": "14 x 21",
+            "paginas": "800",
+            "peso": "0.6550",
+            "anio_publicacion": "2018",
             "presentacion": "Tapa Rústica"
         }
       },
@@ -390,7 +390,7 @@ export class Global {
             "medidas": "14 x 22",
             "paginas": "358",
             "peso": "0.3550",
-            "anio_publicacion": "",
+            "anio_publicacion": "2012",
             "presentacion": "Tapa Rústica"
         }
       },
@@ -410,7 +410,7 @@ export class Global {
             "medidas": "13 x 19",
             "paginas": "320",
             "peso": "0.2450",
-            "anio_publicacion": "",
+            "anio_publicacion": "2000",
             "presentacion": "Tapa Rústica"
         }
       },
@@ -470,7 +470,7 @@ export class Global {
             "medidas": "13 x 19",
             "paginas": "272",
             "peso": "0.2100",
-            "anio_publicacion": "",
+            "anio_publicacion": "2013",
             "presentacion": "Tapa Rústica"
         }
       },
@@ -490,7 +490,7 @@ export class Global {
             "medidas": "13 x 19",
             "paginas": "412",
             "peso": "0.3200",
-            "anio_publicacion": "",
+            "anio_publicacion": "2016",
             "presentacion": "Tapa Rústica"
         }
       },
@@ -510,7 +510,7 @@ export class Global {
             "medidas": "14 x 22",
             "paginas": "224",
             "peso": "0.2450",
-            "anio_publicacion": "",
+            "anio_publicacion": "2018",
             "presentacion": "Tapa Rústica"
         }
       },
@@ -530,7 +530,7 @@ export class Global {
             "medidas": "15 x 23",
             "paginas": "328",
             "peso": "0.3900",
-            "anio_publicacion": "",
+            "anio_publicacion": "2016",
             "presentacion": "Tapa Rústica"
         }
       },
@@ -652,7 +652,7 @@ export class Global {
             "medidas": "15 x 23",
             "paginas": "364",
             "peso": "0.4200",
-            "anio_publicacion": "",
+            "anio_publicacion": "2017",
             "presentacion": "Tapa Rústica"	
         }
       },
@@ -672,7 +672,7 @@ export class Global {
             "medidas": "13 x 19",
             "paginas": "212",
             "peso": "0.1750",
-            "anio_publicacion": "",
+            "anio_publicacion": "2014",
             "presentacion": "Tapa Rústica"
         }
       },
@@ -732,7 +732,7 @@ export class Global {
             "medidas": "15 x 23",
             "paginas": "546",
             "peso": "0.6000",
-            "anio_publicacion": "",
+            "anio_publicacion": "2018",
             "presentacion": "Tapa Rústica"
         }
       },
@@ -772,7 +772,7 @@ export class Global {
             "medidas": "13 x 19",
             "paginas": "464",
             "peso": "0.3050",
-            "anio_publicacion": "",
+            "anio_publicacion": "1988",
             "presentacion": "Tapa Rústica"
         }
       },
@@ -792,7 +792,7 @@ export class Global {
             "medidas": "15 x 23",
             "paginas": "648",
             "peso": "0.7200",
-            "anio_publicacion": "",
+            "anio_publicacion": "2016",
             "presentacion": "Tapa Rústica"
         }
       },
@@ -812,7 +812,7 @@ export class Global {
             "medidas": "13 x 19",
             "paginas": "352",
             "peso": "0.2500",
-            "anio_publicacion": "",
+            "anio_publicacion": "2018",
             "presentacion": "Tapa Rústica"	
         }
       },
@@ -852,7 +852,7 @@ export class Global {
             "medidas": "12 x 19",
             "paginas": "134",
             "peso": "0.0130",
-            "anio_publicacion": "",
+            "anio_publicacion": "2016",
             "presentacion": "Tapa Rústica"	
         }
       },
@@ -872,7 +872,7 @@ export class Global {
             "medidas": "12 x 19",
             "paginas": "372",
             "peso": "0.2650",
-            "anio_publicacion": "",
+            "anio_publicacion": "2012",
             "presentacion": "Tapa Rústica"
         }
       },
@@ -893,7 +893,7 @@ export class Global {
             "medidas": "13 x 19",
             "paginas": "208",
             "peso": "0.1550",
-            "anio_publicacion": "",
+            "anio_publicacion": "2017",
             "presentacion": "Tapa Rústica"
         }
       },
@@ -933,7 +933,7 @@ export class Global {
             "medidas": "13 x 19",
             "paginas": "396",
             "peso": "0.2800",
-            "anio_publicacion": "",
+            "anio_publicacion": "2018",
             "presentacion": "Tapa Rústica"
         }
       },
@@ -1113,7 +1113,7 @@ export class Global {
             "medidas": "17 x 24",
             "paginas": "212",
             "peso": "0.6100",
-            "anio_publicacion": "",
+            "anio_publicacion": "2018",
             "presentacion": "Tapa Rústica"
         }
       },
@@ -1133,7 +1133,7 @@ export class Global {
             "medidas": "15 x 23",
             "paginas": "332",
             "peso": "0.8500",
-            "anio_publicacion": "",
+            "anio_publicacion": "2018",
             "presentacion": "Tapa Rústica"
         }
       }
@@ -1155,7 +1155,7 @@ export class Global {
             "medidas": "",
             "paginas": "",
             "peso": "",
-            "anio_publicacion": "",
+            "anio_publicacion": "2019",
             "presentacion": "Tapa Rústica"
         }
       },
@@ -1175,7 +1175,7 @@ export class Global {
             "medidas": "",
             "paginas": "",
             "peso": "",
-            "anio_publicacion": "",
+            "anio_publicacion": "2019",
             "presentacion": "Tapa Rústica"
         }
       },
@@ -1195,7 +1195,7 @@ export class Global {
             "medidas": "",
             "paginas": "",
             "peso": "",
-            "anio_publicacion": "",
+            "anio_publicacion": "2019",
             "presentacion": "Tapa Rústica"
         }
       },
@@ -1215,7 +1215,7 @@ export class Global {
             "medidas": "",
             "paginas": "",
             "peso": "",
-            "anio_publicacion": "",
+            "anio_publicacion": "2019",
             "presentacion": "Tapa Rústica"
         }
       },
@@ -1235,7 +1235,7 @@ export class Global {
             "medidas": "",
             "paginas": "",
             "peso": "",
-            "anio_publicacion": "",
+            "anio_publicacion": "2019",
             "presentacion": "Tapa Rústica"
         }
       },
@@ -1255,7 +1255,7 @@ export class Global {
             "medidas": "",
             "paginas": "",
             "peso": "",
-            "anio_publicacion": "",
+            "anio_publicacion": "2019",
             "presentacion": "Tapa Rústica"
         }
       },
@@ -1275,7 +1275,7 @@ export class Global {
             "medidas": "",
             "paginas": "",
             "peso": "",
-            "anio_publicacion": "",
+            "anio_publicacion": "2019",
             "presentacion": "Tapa Rústica"
         }
       },
@@ -1295,7 +1295,7 @@ export class Global {
             "medidas": "",
             "paginas": "",
             "peso": "",
-            "anio_publicacion": "",
+            "anio_publicacion": "2019",
             "presentacion": "Tapa Rústica"
         }
       },
@@ -1315,7 +1315,7 @@ export class Global {
             "medidas": "",
             "paginas": "",
             "peso": "",
-            "anio_publicacion": "",
+            "anio_publicacion": "2019",
             "presentacion": "Tapa Rústica"
         }
       },
@@ -1335,7 +1335,7 @@ export class Global {
             "medidas": "",
             "paginas": "",
             "peso": "",
-            "anio_publicacion": "",
+            "anio_publicacion": "2019",
             "presentacion": "Tapa Rústica"
         }
       },
@@ -1355,7 +1355,7 @@ export class Global {
             "medidas": "",
             "paginas": "",
             "peso": "",
-            "anio_publicacion": "",
+            "anio_publicacion": "2019",
             "presentacion": "Tapa Rústica"
         }
       },
@@ -1420,7 +1420,7 @@ export class Global {
             "medidas": "",
             "paginas": "",
             "peso": "",
-            "anio_publicacion": "",
+            "anio_publicacion": "2019",
             "presentacion": "Tapa Rústica"
         }
       }
@@ -1462,7 +1462,7 @@ export class Global {
             "medidas": "",
             "paginas": "",
             "peso": "",
-            "anio_publicacion": "",
+            "anio_publicacion": "2010",
             "presentacion": "Tapa Rústica"
         }
       },
@@ -1488,8 +1488,5 @@ export class Global {
       }
     ]
   }
-
-
-
 
 }
