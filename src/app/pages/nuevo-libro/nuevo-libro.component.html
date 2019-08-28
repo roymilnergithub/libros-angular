@@ -1,0 +1,102 @@
+<!-- Content page -->
+<section class="bg0 p-t-35 p-b-116">
+    <div class="container">
+        <div class="flex-w flex-tr">
+            <div class="size-210 bor10 p-lr-70 p-t-30 p-b-30 p-lr-15-lg w-full-md">
+                <form [formGroup]="libroForm">
+                    <h4 class="mtext-105 cl2 txt-center p-b-30">
+                        {{title}}
+                    </h4>
+
+                    <div class="bor8 m-b-20 how-pos4-parent">
+                        <input class="size-116 p-l-10 p-r-10" type="text" formControlName="codigo_producto_servicio"
+                            PreventDefaultEnter placeholder="CODIGO LIBRO">
+                    </div>
+
+                    <div class="bor8 m-b-20 how-pos4-parent">
+                        <input class="size-116 p-l-10 p-r-10" type="text" formControlName="titulo"
+                            PreventDefaultEnter placeholder="TITULO LIBRO">
+                    </div>
+
+                    <div class="m-b-12 m-t-9">
+                        <select formControlName="autor_id">
+                            <option value="" selected disabled>Seleccione un Autor</option>
+                            <option *ngFor="let autor of autoreslList" value={{autor.autor_id}}>
+                                {{autor.nombre}}
+                            </option>
+                        </select>
+                    </div>
+
+                    <div class="bor8 m-b-20 how-pos4-parent">
+                        <input class="size-116 p-l-20 p-r-30" type="text" formControlName="isbn"
+                            PreventDefaultEnter placeholder="ISBN">
+                    </div>
+
+                    <div class="m-b-20 how-pos4-parent">
+                        <select formControlName="editorial_id">
+                            <option value="" selected disabled>Seleccione una Editorial</option>
+                            <option *ngFor="let editorial of editorialList" value={{editorial.editorial_id}}>
+                                {{editorial.nombre}}
+                            </option>
+                        </select>
+                    </div>
+
+                    <div class="bor8 m-b-20 how-pos4-parent">
+                        <input class="size-116 p-l-20 p-r-30" type="text" formControlName="descripcion"
+                            PreventDefaultEnter placeholder="DESCRIPCION DEL PRODUCTO">
+                    </div>
+
+                    <div class="bor8 m-b-20 how-pos4-parent">
+                        <input class="size-116 p-l-20 p-r-30" type="text" formControlName="cantidad"
+                            PreventDefaultEnter placeholder="0 - CANTIDAD">
+                    </div>
+
+                    <!-- Imagen -->
+                    <div class="bor8 m-b-20 how-pos4-parent size-116 p-l-20 p-r-30">
+                        <input  id="file" type="file" formControlName="imagen" 
+                            (change)="selectArchivo($event) "
+                            PreventDefaultEnter accept="image/*">
+                        <label for="file"><span>{{nombreArchivo}}</span>
+                            <div class="textFile">Selecciona una imagen menor a 2 MB (png, jpg, jpeg)</div>
+                        </label>
+                        <!-- <div>
+                            <img class="imgLogo" id="imgFile" src="" />
+                        </div> -->
+                    </div>
+
+                    <div class="bor8 m-b-20 how-pos4-parent">
+                        <input class="size-116 p-l-20 p-r-30" type="text" 
+                        formControlName="precio_original" PreventDefaultEnter placeholder="0.00 - ORIGINAL">
+                    </div>
+
+                    <div class="bor8 m-b-20 how-pos4-parent">
+                        <input class="size-116 p-l-20 p-r-30" type="text" 
+                        formControlName="precio_compra" PreventDefaultEnter placeholder="0.00 - COMPRA">
+                    </div>
+
+                    <div class="bor8 m-b-20 how-pos4-parent">
+                        <input class="size-116 p-l-20 p-r-30" type="text" 
+                        formControlName="precio_oferta" PreventDefaultEnter placeholder="0.00 - OFERTA">
+                    </div>
+
+                    <button (click)="onSubmit()" (keyup.enter)="onSubmit()"
+                        class="flex-c-m stext-101 cl0 size-121 bg3 bor1 hov-btn3 p-lr-15 trans-04 pointer">
+                        Enviar
+                    </button>
+                </form>
+            </div>
+
+            <div class="size-210 bor10 flex-w flex-col-m p-lr-93 p-tb-30 p-lr-15-lg w-full-md">
+                <img class="imgLogo" id="imgFile" src="" />
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Map -->
+<div class="map">
+    <div class="size-303" id="google_map" data-map-x="-16.398848280604206" data-map-y="-71.53690694831846"
+        data-scrollwhell="0" data-draggable="1" data-zoom="17"></div>
+    <!-- <div class="size-303" id="google_map" data-map-x="-16.398848280604206" data-map-y="-71.53690694831846" data-pin="./../../../assets/imagenes/icons/pin.png" data-scrollwhell="0" data-draggable="1" data-zoom="17"></div> -->
+</div>

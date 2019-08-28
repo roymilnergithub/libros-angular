@@ -19,11 +19,16 @@ import { RecomendadosComponent } from './pages/recomendados/recomendados.compone
 import { LiteraturaComponent } from './pages/literatura/literatura.component';
 import { AustralComponent } from './pages/austral/austral.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
+import { NuevoLibroComponent } from './pages/nuevo-libro/nuevo-libro.component';
 
 import { HttpClientModule } from '@angular/common/http';
 import { AuthGuard } from './auth.guard';
 import { AuthService } from './auth.service';
 
+// Servicios
+import { RestService } from './pages/nuevo-libro/rest.service';
+
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -41,14 +46,18 @@ import { AuthService } from './auth.service';
     RecomendadosComponent,
     LiteraturaComponent,
     AustralComponent,
-    ContactoComponent
+    ContactoComponent,
+    NuevoLibroComponent
   ],
   imports: [
     AppRoutingModule,
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
-  providers: [AuthGuard, AuthService, AlbumsService],
+  providers: [AuthGuard, AuthService, AlbumsService, 
+              RestService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

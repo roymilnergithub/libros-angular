@@ -6,6 +6,7 @@ import { RecomendadosComponent } from './pages/recomendados/recomendados.compone
 import { LiteraturaComponent } from './pages/literatura/literatura.component';
 import { AustralComponent } from './pages/austral/austral.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
+import { NuevoLibroComponent } from './pages/nuevo-libro/nuevo-libro.component';
 // album
 import { AlbumDetailsComponent } from './albums/album-details/album-details.component';
 import { AlbumsComponent } from './albums/albums.component';
@@ -26,7 +27,8 @@ const routes: Routes = [
   { path: 'recomendados', component: RecomendadosComponent },
   { path: 'literatura', component: LiteraturaComponent },
   { path: 'austral', component: AustralComponent },
-  { path: 'contacto', component: ContactoComponent }
+  { path: 'contacto', component: ContactoComponent },
+  { path: 'nuevo-libro', component: NuevoLibroComponent }
 ];
 
 @NgModule({

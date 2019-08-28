@@ -4,12 +4,22 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class Global {
-  constructor() { }
+  constructor() {}
+
   public TITLE_NOVEDADES = 'Novedades';
   public TITLE_RECOMENDADOS = 'Recomendados';
   public TITLE_LITERATURA = 'Literatura';
   public TITLE_AUSTRAL = 'Austral';
   public TITLE_CONTACTO = 'Contacto';
+  public TITLE_NUEVO_LIBRO = 'Nuevo Libro';
+  public MAX_TAMANO_IMAGE = 2048000; //2MB
+  public URL_REST_SERVICES = 'https://db-librosarequipa.herokuapp.com/'; 
+  public ESTADO = {
+    ACTIVO: 'ACT',
+    INACTIVO: 'INA',
+    BORRADO: 'DEL'
+  }
+
   public LISTA_LIBROS = {
     "novedades": [
       {

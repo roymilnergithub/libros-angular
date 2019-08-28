@@ -12,8 +12,8 @@ export class AustralComponent implements OnInit {
   public australList: any = [];
 
   constructor(
-    public _global: Global,
-  ) { 
+    public _global: Global
+  ) {
     this.title = this._global.TITLE_AUSTRAL;
   }
 
