@@ -13,8 +13,8 @@ export class Global {
   public TITLE_CONTACTO = 'Contacto';
   public TITLE_NUEVO_LIBRO = 'Nuevo Libro';
   public MAX_TAMANO_IMAGE = 2048000; //2MB
-  public URL_REST_SERVICES = 'http://localhost:8000/'; 
-  //public URL_REST_SERVICES = 'https://db-librosarequipa.herokuapp.com/'; 
+  //public URL_REST_SERVICES = 'http://localhost:8000/'; 
+  public URL_REST_SERVICES = 'https://db-librosarequipa.herokuapp.com/'; 
   public ESTADO = {
     ACTIVO: 'ACT',
     INACTIVO: 'INA',
