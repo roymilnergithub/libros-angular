@@ -39,7 +39,7 @@ export class NuevoLibroComponent implements OnInit {
         this.restService.getEditoriales()
             .subscribe((data) => {
                 this.editorialList = data;
-                console.log("editorialList=",this.editorialList);
+                console.log("editorialList=", this.editorialList);
             },
                 (error) => {
                     console.error(error);
@@ -51,7 +51,7 @@ export class NuevoLibroComponent implements OnInit {
         this.restService.getAutores()
             .subscribe((data) => {
                 this.autoreslList = data;
-                console.log("autoresList=",this.autoreslList);
+                console.log("autoresList=", this.autoreslList);
             },
                 (error) => {
                     console.error(error);
@@ -76,7 +76,7 @@ export class NuevoLibroComponent implements OnInit {
         });
     }
 
-    initLibroForm(){
+    initLibroForm() {
         this.libroForm.controls['codigo_producto_servicio'].setValue('');
         this.libroForm.controls['titulo'].setValue('');
         this.libroForm.controls['autor_id'].setValue('1');
@@ -84,7 +84,7 @@ export class NuevoLibroComponent implements OnInit {
         this.libroForm.controls['editorial_id'].setValue('1');
         this.libroForm.controls['descripcion'].setValue('');
         this.libroForm.controls['cantidad'].setValue('');
-        //this.libroForm.controls['imagen'].setValue('');
+        this.libroForm.controls['imagen'].setValue('');
         this.libroForm.controls['precio_original'].setValue('');
         this.libroForm.controls['precio_compra'].setValue('');
         this.libroForm.controls['precio_oferta'].setValue('');
@@ -94,16 +94,16 @@ export class NuevoLibroComponent implements OnInit {
         let preview = document.getElementById("imgFile") as HTMLImageElement;
         preview.src = item.imagen;
         if (item.imagen == null) {
-          preview.src = '';
-          this.nombreArchivo = '';
+            preview.src = '';
+            this.nombreArchivo = '';
         } else {
-          preview.src = item.imagen;
+            preview.src = item.imagen;
         }
-    
+
         item.imagen = "";
-        
+
         this.libroForm.patchValue(item);
-      }
+    }
 
     public selectArchivo(event) {
         //this._util.showLoader();
@@ -150,24 +150,27 @@ export class NuevoLibroComponent implements OnInit {
     public onSubmit() {
         let libro = this.libroForm.value;
         this.setFormData(libro);
-        this.saveLibro(this.formData);
+        this.saveLibro();
     }
 
-    public saveLibro(libro){
-        this.restService.registrarNuevoLibro(libro).subscribe(
+    public saveLibro() {
+        this.restService.registrarNuevoLibro(this.formData).subscribe(
             data => {
-              if (data) {
-                  console.log('Libro guardado exitosamente')
-                // this.router.navigate(['/dashboard']);
-              }
+                if (data) {
+                    console.log('Libro guardado exitosamente')
+                    console.log('Data = ', data)
+                    let preview = document.getElementById("imgFileReturn") as HTMLImageElement;
+                    preview.src = (data.imagen == null) ? '' : data.imagen;
+                    // this.router.navigate(['/dashboard']);
+                }
             },
             error => {
-              console.log("El libro no pudo ser guardado", error)
+                console.log("El libro no pudo ser guardado", error)
             }
-          );
+        );
     }
 
-    public setFormData(libro){
+    public setFormData(libro) {
         this.formData.append('codigo_producto_servicio', libro.codigo_producto_servicio);
         this.formData.append('titulo', libro.titulo);
         this.formData.append('autor_id', libro.autor_id);

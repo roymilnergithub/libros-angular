@@ -7,7 +7,7 @@ import { Global } from './../../common/global/global';
 })
 export class RestService {
 
-  private headers: any;
+  private headers = new HttpHeaders();
 
   constructor(
     protected http: HttpClient,
@@ -22,15 +22,23 @@ export class RestService {
     return this.http.get(this._global.URL_REST_SERVICES + 'editoriales/');
   }
 
-  registrarNuevoLibro(libro){
-    this.headers = new HttpHeaders().set('Content-Type','application/x-www-form-urlencoded');
-    return this.http.post(this._global.URL_REST_SERVICES + 'nuevo-libro/', libro, {headers: this.headers});
-
-    // this.headers = new HttpHeaders({
-    //     'Cache-Control': 'no-cache',
-    //     'Pragma': 'no-cache'
-    // });
-    // this.headers = this.headers.append('token', this.storageService.get(TOKEN));
-    // return this.headers;
+  /**
+  * Guarda el ítem recibido
+  * @param {Producto} ítem 
+  * @returns {Observable<Producto>}
+  */
+  registrarNuevoLibro(libro: any) {
+    //this.headers = new HttpHeaders().set('Content-Type','application/x-www-form-urlencoded');
+    //this.headers = new HttpHeaders().set('content-type', "multipart/form-data");
+    this.headers = this.tokenCreationInHttpHeaders();
+    return this.http.post<any>(this._global.URL_REST_SERVICES + 'nuevo-libro/', libro, { headers: this.headers });
   }
+
+  public tokenCreationInHttpHeaders() {
+    this.headers = new HttpHeaders({
+        'Cache-Control': 'no-cache',
+        'Pragma': 'no-cache'
+    });
+    return this.headers;
+}
 }
