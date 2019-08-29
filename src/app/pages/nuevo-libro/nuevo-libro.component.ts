@@ -160,7 +160,7 @@ export class NuevoLibroComponent implements OnInit {
                     console.log('Libro guardado exitosamente')
                     console.log('Data = ', data)
                     let preview = document.getElementById("imgFileReturn") as HTMLImageElement;
-                    preview.src = (data.imagen == null) ? '' : data.imagen;
+                    preview.src = (data.imagenBase == null) ? '' : data.imagenBase;
                     // this.router.navigate(['/dashboard']);
                 }
             },
