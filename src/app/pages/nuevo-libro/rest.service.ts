@@ -14,6 +14,10 @@ export class RestService {
     public _global: Global
   ) { }
 
+  getListaPluton() {
+    return this.http.get(this._global.URL_REST_SERVICES + 'listaPluton/');
+  }
+
   getAutores() {
     return this.http.get(this._global.URL_REST_SERVICES + 'autores/');
   }
