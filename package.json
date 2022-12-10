@@ -22,7 +22,7 @@
     "@angular/platform-browser-dynamic": "~8.0.0",
     "@angular/router": "~8.0.0",
     "core-js": "^2.5.4",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "form-data": "^2.5.0",
     "jquery": "^3.4.1",
     "path": "^0.12.7",
